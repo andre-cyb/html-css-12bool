@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+h2{
+    color: rgb(66, 66, 66);
+}
+section{
+    padding: 10px 0px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col{
+background-color: rgb(1, 170, 248);
+border: 1px solid white;
+min-height: 40px;
+text-align: center;
+
+}
+
+.nested-box{
+    background-color: rgb(248, 211, 1);
+    border: 1px solid white;
+    text-align: center;
+}
+
+.nested{
+    padding: 10px;   
+ }
+ .nested > div{
+    background-color: rgb(248, 149, 1);
+    border: 1px solid rgb(1, 170, 248);
+    min-height: 50px;
+    text-align: center;
+ } 
