@@ -18,12 +18,12 @@ section{
 }
 
 .col{
-background-color: rgb(1, 170, 248);
-border: 1px solid white;
-min-height: 40px;
-/* max-height: 40px;*/
- text-align: center;
- padding: 10px;
+    background-color: rgb(1, 170, 248);
+    border: 1px solid white;
+    min-height: 40px;
+    /* max-height: 40px;*/
+    text-align: center;
+    padding: 10px;
 
 }
 
