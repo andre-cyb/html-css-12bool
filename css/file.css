@@ -21,18 +21,17 @@ section{
 background-color: rgb(1, 170, 248);
 border: 1px solid white;
 min-height: 40px;
-text-align: center;
+/* max-height: 40px;*/
+ text-align: center;
+ padding: 10px;
 
 }
 
-.nested-box{
-    background-color: rgb(248, 211, 1);
-    border: 1px solid white;
-    text-align: center;
-}
+
 
 .nested{
-    padding: 10px;   
+    padding: 10px;
+     
  }
  .nested > div{
     background-color: rgb(248, 149, 1);
@@ -40,3 +39,35 @@ text-align: center;
     min-height: 50px;
     text-align: center;
  } 
+
+.start{
+    justify-content: flex-start;
+}
+.center{
+    justify-content:center;
+}
+.end{
+    justify-content: flex-end;
+}
+
+
+.tall-column{
+    min-height: 60px;
+}
+.top{
+    align-items: flex-start;
+}
+.middle{
+    align-items:center ;
+}
+.bottom{
+    align-items: flex-end;
+}
+
+
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
